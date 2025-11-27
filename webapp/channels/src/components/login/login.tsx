@@ -888,7 +888,7 @@ const Login = ({onCustomizeHeader}: LoginProps) => {
                             tabIndex={0}
                         >
                             <p className='login-body-card-title'>
-                                <a href="https://eos.eoxvantage.com">{getCardTitle()}</a>
+                                {getCardTitle()}
                             </p>
                             {enableCustomBrand && getMessageSubtitle()}
                             {alertBanner && (
